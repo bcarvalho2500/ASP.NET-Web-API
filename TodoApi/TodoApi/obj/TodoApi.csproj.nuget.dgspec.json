@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brandoncarvalho/GitHub/ASP.NET-Web-API/TodoApi/TodoApi/TodoApi.csproj": {}
+    "/Users/brandoncarvalho/Projects/TodoApi/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "/Users/brandoncarvalho/GitHub/ASP.NET-Web-API/TodoApi/TodoApi/TodoApi.csproj": {
+    "/Users/brandoncarvalho/Projects/TodoApi/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brandoncarvalho/GitHub/ASP.NET-Web-API/TodoApi/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/Users/brandoncarvalho/Projects/TodoApi/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/Users/brandoncarvalho/GitHub/ASP.NET-Web-API/TodoApi/TodoApi/TodoApi.csproj",
+        "projectPath": "/Users/brandoncarvalho/Projects/TodoApi/TodoApi/TodoApi.csproj",
         "packagesPath": "/Users/brandoncarvalho/.nuget/packages/",
-        "outputPath": "/Users/brandoncarvalho/GitHub/ASP.NET-Web-API/TodoApi/TodoApi/obj/",
+        "outputPath": "/Users/brandoncarvalho/Projects/TodoApi/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brandoncarvalho/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,32 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-preview.7.21379.14/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

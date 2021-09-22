@@ -1,14 +1,30 @@
-﻿<Properties StartupConfiguration="{21546D0A-E4FA-49E6-B998-ABA02C0F890D}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{1248892A-1912-45A9-A127-27C8483CD207}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TodoApi/Models/TodoItem.cs">
+    <Files>
+      <File FileName="TodoApi/Startup.cs" Line="53" Column="2" />
+      <File FileName="TodoApi/Models/TodoItem.cs" Line="5" Column="6" />
+      <File FileName="TodoApi/Models/TodoContext.cs" />
+      <File FileName="TodoApi/Controllers/WeatherForecastController.cs" />
+      <File FileName="TodoApi/Controllers/TodoItemsController.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TodoApi" expanded="True" selected="True" />
+          <Node name="TodoApi" expanded="True">
+            <Node name="TodoApi" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="TodoItem.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TodoApi FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.TodoApi PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
